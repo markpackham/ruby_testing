@@ -47,5 +47,6 @@ end
 # T(°C) = (68°F - 32) × 5/9 = 20 °C
 # 50 = 10
 def f_c(a)
-return (a - 32) * 5/9
+    a = (a -32) * 5/9
+return a
 end

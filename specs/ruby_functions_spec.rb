@@ -98,7 +98,7 @@ class FunctionsTest < MiniTest::Test
   def test_f_c()
   # 50 = 10
   test_f_c = f_c(50)
-  assert_equal(50,test_f_c)
+  assert_equal(10,test_f_c)
   #   #add test code here
   # end
   end
