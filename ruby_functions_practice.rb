@@ -44,8 +44,13 @@ def volume_of_cube(a)
     return a**3
 end
 
+def volume_of_sphere(a)
+    a = (a**3)*Math::PI * 1.333333
+    return a.round(2)
+end
+
 # T(°C) = (68°F - 32) × 5/9 = 20 °C
-# 50 = 10
+# 50 C = 10 F
 def f_c(a)
     a = (a -32) * 5/9
 return a
